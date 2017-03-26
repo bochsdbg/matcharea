@@ -1,5 +1,8 @@
 # 06.11.2011
 
+QT += core gui widgets
+CONFIG += c++14
+
 INCLUDEPATH = ../PsyLib
 
 SOURCES += \
@@ -39,47 +42,6 @@ HEADERS += \
 RESOURCES += \
     PsyMatchArea.qrc
 
-#RC_FILE = PsyMatchArea.rc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+win32 {
+  RC_FILE = PsyMatchArea.rc
+}
